@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header" id="header" >
+        <h3 >CALCULATOR</h3>
+        <div class="input">
+            <input id="input1" value="" type="text" placeholder="A" disabled>
+            <input id="input2" value="" type="number" placeholder="B" disabled>
+            <input id="input3" type="text" placeholder="C" disabled>
+        </div>
+        <div class="display">
+            <div class="number1">
+                <div class="num1" id="num" onclick="func('1')">1</div>
+                <div class="num1" id="num" onclick="func('2')">2</div>
+                <div class="num1" id="num" onclick="func('3')">3</div>
+                <div class="num1" id="num0" onclick="func('+')">+</div>
+            </div>
+            <div class="number2">
+                <div class="num1" id="num" onclick="func('4')">4</div>
+                <div class="num1" id="num" onclick="func('5')">5</div>
+                <div class="num1" id="num" onclick="func('6')">6</div>
+                <div class="num1" id="num" onclick="func('-')">-</div>
+            </div>
+            <div class="number3">
+                <div class="num1" id="num" onclick="func('7')">7</div>
+                <div class="num1" id="num" onclick="func('8')">8</div>
+                <div class="num1" id="num" onclick="func('9')">9</div>
+                <div class="num1" id="num" onclick="func('*')">*</div>
+            </div>
+            <div class="number4">
+                <div class="num1" id="num" onclick="func('/')">/</div>
+                <div class="num1" id="num" onclick="func('0')">0</div>
+                <div class="num1" id="num" onclick="func('.')">.</div>
+                <div class="num1" id="num" onclick="result()">=</div>
+            </div>
+            <div class="number4">
+                <div class="num1" id="num" onclick="c()">C</div>
+                <div class="num1" id="num" onclick="func('%')">%</div>
+                <div class="num1" id="num" onclick="func('(')">(</div>
+                <div class="num1" id="num" onclick="func(')')">)</div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
